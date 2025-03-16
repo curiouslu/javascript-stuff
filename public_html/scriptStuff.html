@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h2>demo js in body</h2>
+
+<p id="demo">a paragraph</p>
+
+<button type="button" onclick="changeText()">click to change text... invoke function.</button>
+<button type="button" onclick="changeBack()">change back!!!</button>
+<script>
+function changeText() {
+  document.getElementById("demo").innerHTML = "paragraph changed.";
+}
+</script>
+
+<script>
+function changeBack(){
+  document.getElementById("demo").innerHTML="a paragraph.";
+  }
+</script>
+
+</body>
+</html> 
